@@ -1,0 +1,89 @@
+<%- include ('_layouts/header') -%>
+
+<script>
+  $(document).ready(function () {
+    $("#flip1").click(function () {
+      $("#panel1").slideToggle("slow");
+    });
+    $("#flip2").click(function () {
+      $("#panel2").slideToggle("slow");
+    });
+    $("#flip3").click(function () {
+      $("#panel3").slideToggle("slow");
+    });
+  });
+</script>
+
+<div class="container">
+  <div class="offset-md-3 col-md-6" style="align-items: center;">
+    <h1 style="font-size: x-large;text-align: center;color: rgb(17, 68, 10);">How are we different?</h1>
+
+    <div id="flip1"
+      style="  padding: 10px;border: solid 1px #c3c3c3;border-radius: 6px;font-size: medium;cursor: pointer;"
+      class="row">
+      <div class="col-md-11">PRODUCTS</div>
+      <div class="col-md-1" style="text-align: center;"><span
+          style="background-color: rgb(42, 104, 42);border-radius: 100%;color: white;"> <b>&nbsp;+&nbsp;</b></span>
+      </div>
+    </div>
+    <div id="panel1"
+      style="  padding: 10px;text-align: center;border: dashed 1px #c3c3c3;display: none;margin-top: auto;font-size: small;">
+      <div class="row">
+        <div class="col-md-6" style="text-align: left;"> <br> You can get each and every genuine product from our EShop.
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div id="flip2"
+      style="  padding: 10px;border: solid 1px #c3c3c3;border-radius: 6px;font-size: medium;cursor: pointer;"
+      class="row">
+      <div class="col-md-11">DELIVERY</div>
+      <div class="col-md-1" style="text-align: center;"><span
+          style="background-color: rgb(42, 104, 42);border-radius: 100%;color: white;"> <b>&nbsp;+&nbsp;</b></span>
+      </div>
+    </div>
+    <div id="panel2"
+      style="  padding: 10px;text-align: center;border: dashed 1px #c3c3c3;display: none;margin-top: auto;font-size: small;">
+      <div class="row">
+        <div class="col-md-6" style="text-align: inherit;"> <br><br> Almost 7–15 days is the minimum-maximum timing for
+          any delivery to take place.
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div id="flip3"
+      style="  padding: 10px;border: solid 1px #c3c3c3;border-radius: 6px;font-size: medium;cursor: pointer;"
+      class="row">
+      <div class="col-md-11">PAYMENT</div>
+      <div class="col-md-1" style="text-align: center;"><span
+          style="background-color: rgb(42, 104, 42);border-radius: 100%;color: white;"> <b>&nbsp;+&nbsp;</b></span>
+      </div>
+    </div>
+    <div id="panel3"
+      style="  padding: 10px;text-align: center;border: dashed 1px #c3c3c3;display: none;margin-top: auto;font-size: small;">
+      <div class="row">
+        <div class="col-md-6" style="text-align: inherit;"> <br><br>payment methods on Myntra are.
+
+          · Debit/Credit Card
+
+          · Net Banking
+
+          · Cash on Delivery
+
+          · PhonePe/BHIM UPI
+
+          · Wallets(PayPal, Airtel money, PAYZAPP, Mobikwik)
+
+          · Gift cards..
+        </div>
+      </div>
+    </div>
+    <br>
+
+  </div>
+</div>
+<%- include ('_layouts/footer') -%>
